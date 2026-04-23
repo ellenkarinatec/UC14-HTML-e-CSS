@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>karina</title>
+</head>
+<body> 
+<p><b>Lorem </b> <strong>ipsum </strong> <em>dolor</em> <del>sit amet consectetur</del> <u>adipisicing elit.</u> Laudantium, beatae ipsum doloribus voluptatem sunt consectetur totam quos quasi sint est enim minus odit quidem itaque, quo officiis nihil id eaque!</p>
+
+<q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto magniquam sunt.</q>
+
+<blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, vel dolores. Cumque recusandae molestias animi voluptas neque eaque debitis, voluptatum, ut placeat dolore aspernatur, dolorem perspiciatis veniam molestiae laudantium non.</blockquote> 
+<!--abbr, b, u, em, del (tags que usamos)-->
+
+<p><abbr title="linguagem de marcação">html</abbr> é uma linguagem muito importante para a web</p>
+
+<!--listas--> <!-- ol primeiro, li e depois coloca li*4 (para repetir varias vzs a msm tag) coloca ol dps type para mudar 12345 na hr de executar (o start serve para colocar que número vai inicar na lista)--> 
+
+<ol type="I" start="1000">
+    <li>ellen linda 1</li>
+    <li>ellen linda 2</li>
+    <li>ellen linda 3</li>
+    <li>ellen linda 4</li>
+    <li>ellen linda 5</li>
+</ol>
+
+<!--ul outra tag para colocar bolinhas mas tem outros types, disc circle square  -->
+<ul> 
+<li>ellen maravilhosa</li>
+<li>ellen maravilhosa</li>
+<li>ellen maravilhosa</li>
+
+</ul>
+
+<!--links (abre a tag "a" e dentro das aspas coloque o site e dentro dos > coloque o nome que vc qurer, ex clique aqui) depois coloca target--> 
+<a href="https://www.zara.com/br/" target="_blank">CLIQUE AQUI</a>
+
+<!--vai no site pixeis e baixa a imagem, essa foi 200, add na pasta e agr coloca a tag picture, dps img e coloca ctrcl, dps a tag source media type e digita o nome da imagem e em type jpn, dps coloca inves de min, coloca max e 700px-->
+
+<picture>
+    <source media="(max-width: 300px)" srcset="img3.jpg" type="image/jpg">
+    <img src="img 1.jpg" alt="imagem 1"> 
+
+</picture>
+
+<!--baixa o video e coloca dps a tag controls, p diminuir só colocar widht 500px, 300, vc escolhe--><<video src="video 1.mp4" controls width="500px"></video>
+
+<!--nesse de baixo coloca um video do ytb-->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CKEPf-wplgk?si=qrugldq_a1hGBlHK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<!--para colocar; video e source; src, coloca em mp3 ou p4 se não rodar esse p3 ou p4 o navegador procura outra opção, se nao rodar msm assim aparece esse aviso; o seu navegador..-->
+
+<!--<video controls>
+
+<source src="video 1.mp4" type="video/mp4">
+<source src="video 1.webm" type="video/webm">
+<p> o seu navegador não conseuguiu reproduzir esse vídeo.</p>
+
+</video>
+-->
+
+<!--para colocar audios-->
+<audio src="Locked In - Anno Domini Beats.mp3" controls></audio>
+
+<!--inputs-->
+<!--qualquer dado, informação ou estímulo que entra em um sistema (computador, cérebro, processo) para ser processado, transformado ou consumido, gerando um resultado (output)--> 
+
+<!--digite seu nome (input)-->
+ <label for="nome">NOME:</label>
+ <input type="text" name="nome" placeholder="digite seu nome"> 
+
+<!--digite sua senha (input)-->
+ <label for="senha">SENHA:</label>
+ <input type="password" name="senha" placeholder="digite sua senha">
+
+ <!--números-->
+ <label for="number">COLOQUES SUA IDADE</label>
+ <input type="number" name="numero" min="1" max="1000">
+
+ <!--calendário-->
+<label for="number">MARQUE SEU HORÁRIO</label>
+ <input type="date" name="data">
+
+ <!--data e hora ao msm tmp-->
+ <label for="data-hora">DATA E HORA:</label>
+ <input type="datetime-local" name="date-time">
+
+<!--selecionar seu gênero-->
+ <label for="sexo">SEXO:</label>
+ <input type="radio" name="sexo"> MASCULINO
+<input type="radio" name="sexo"> FEMININO 
+
+<!--selecione seus hobbies-->
+<label for="hobbies">HOBBIES:</label>
+<input type="checkbox" name="hobbies" value="Futebol">
+<input type="checkbox" name="hobbies" value="Praia">
+<input type="checkbox" name="hobbies" value="Desenhar">
+
+<!--add arquivos-->
+<label for="arquivo">ARQUIVO:</label>
+<input type="file" name="arquivo">
+
+<!--volume-->
+<label for="volume">VOLUME:</label>
+<input type="range" name="volume" min="1" max="1000">
+
+<!--cores-->
+<label for="color">COR:</label>
+<input type="color" name="cor">
+
+<!--botão-->
+<label for="botão">BOTÃO:</label>
+<input type="button" value="CLIQUE AQUI">
+
+<label for="enviar">SUBMETER:</label>
+<input type="submit" value="ENVIAR">
+
+
+
+
+
+</body>
+</html>
