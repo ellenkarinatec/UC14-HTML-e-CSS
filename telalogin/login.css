@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    background-color: rgb(247, 202, 255);
+}
+
+h2 {
+    color: rgb(84, 11, 108);
+}
+
+form {
+    background-color: rgb(221, 128, 239);
+    padding: 30px;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgb(88, 0, 81);
+}
+
+input{
+    padding: 5px;
+    margin: 10px 0;
+    border: 1px solid rgb(137, 4, 137);
+  border-radius: 8px;
+}
+
+button {
+    padding: 10px;
+    margin-top: 2px;
+    background-color: rgb(211, 124, 237);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgb(72, 4, 72) ;
+}
+
+button:hover {
+    background-color: rgb(240, 169, 243);
+}
+
