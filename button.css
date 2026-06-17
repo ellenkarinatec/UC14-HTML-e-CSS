@@ -1,0 +1,35 @@
+
+button {
+    background-color: #544fe7;
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 25px;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px #112994;
+    
+
+}
+
+
+button:hover {
+    background-color: #0b0752;
+    box-shadow: 0 0 25px #7693f2;
+    transform: scale(1.15);
+    transition: 0.3s;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+   
+
+
+
+
